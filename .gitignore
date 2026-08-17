@@ -1,0 +1,49 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Node
+node_modules/
+frontend/node_modules/
+
+# Logs
+*.log
+backend/output/*.log
+
+# Env files
+.env
+backend/.env
+frontend/.env
+
+# DB / runtime
+*.sqlite3
+*.db
+backend/output/
+backend/__pycache__/
+backend/.pytest_cache/
+backend/.mypy_cache/
+
+# Model and video artifacts (large)
+backend/models/*.pt
+backend/input/*.mp4
+
+# Vite
+frontend/dist/
